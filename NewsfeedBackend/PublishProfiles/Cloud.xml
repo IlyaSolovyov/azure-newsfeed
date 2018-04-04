@@ -20,7 +20,7 @@
                                     AzureActiveDirectory="true"
                                     ServerCertThumbprint="0123456789012345678901234567890123456789" />
   -->
-  <ClusterConnectionParameters ConnectionEndpoint="newsfeed909.westeurope.cloudapp.azure.com:19000" X509Credential="true" ServerCertThumbprint="6BD0810AC8D360AE7F6A0A86715FE4F1DA74C4D3" FindType="FindByThumbprint" FindValue="6BD0810AC8D360AE7F6A0A86715FE4F1DA74C4D3" StoreLocation="CurrentUser" StoreName="My" />
+  <ClusterConnectionParameters ConnectionEndpoint="newsfeed909.westeurope.cloudapp.azure.com:19000" X509Credential="true" ServerCertThumbprint="C467E18F3F8E06A34BCE1C9D5BCAE05865431461" FindType="FindByThumbprint" FindValue="C467E18F3F8E06A34BCE1C9D5BCAE05865431461" StoreLocation="CurrentUser" StoreName="My" />
   <ApplicationParameterFile Path="..\ApplicationParameters\Cloud.xml" />
   <CopyPackageParameters CompressPackage="true" />
 </PublishProfile>
