@@ -28,7 +28,7 @@ namespace NewsfeedAPIService
             services.AddMvc();
 
             services.AddDbContext<NewsfeedContext>(options =>
-            options.UseSqlServer(Configuration["ConnectionString"]));
+            options.UseSqlServer(/*connection string goes here*/);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
